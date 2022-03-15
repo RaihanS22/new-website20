@@ -15,8 +15,6 @@ btn.addEventListener("click", function () {
         reply = "i'm raj assistence, you?";
     } else if (c.match("how are you?")) {
         reply = "i'm fine and you?";
-    } else if (c.match("where are you from?"){
-        reply = "i'm from rajshahi, you?";
     } else {
         reply = "i don't understand, try another way!"
     }
@@ -31,23 +29,23 @@ btn.addEventListener("click", function () {
 })
 
 // // toggle menu
-// jQuery(".toggle-menu").click(function () {
-//     jQuery(".main-menu ul").slideToggle();
-// });
+jQuery(".toggle-menu").click(function () {
+    jQuery(".main-menu ul").slideToggle();
+});
 
 // // scrolltop
-// jQuery(".totop").click(function () {
-//     jQuery("html, body").animate({
-//         "scrollTop": "0px"
-//     }, 2000);
-// });
+jQuery(".totop").click(function () {
+    jQuery("html, body").animate({
+        "scrollTop": "0px"
+    }, 2000);
+});
 
 // // if else scrollbar condition
-// console.log(jQuery(window).scrollTop());
-// jQuery(window).scroll(function () {
-//     if (jQuery(window).scrollTop() > 300) {
-//         jQuery(".totop").fadeIn();
-//     } else {
-//         jQuery(".totop").fadeOut();
-//     }
-// });
+console.log(jQuery(window).scrollTop());
+jQuery(window).scroll(function () {
+    if (jQuery(window).scrollTop() > 300) {
+        jQuery(".totop").fadeIn();
+    } else {
+        jQuery(".totop").fadeOut();
+    }
+});
